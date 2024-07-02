@@ -15,14 +15,14 @@ public class StateCapitalGame {
 	    /* Part 1: Sorting Arrays
 	       Develop a program that asks the user to enter a capital for a U.S. state. 
 	       Upon receiving the user input, the program reports whether the user input is correct. 
-	       For this application, the 50 states and their capitals are stored in a two-dimensional array in order by state           name. 
+	       For this application, the 50 states and their capitals are stored in a two-dimensional array in order by state name. 
 	       Display the current contents of the array then use a bubble sort to sort the content by capital. 
 	       Next, prompt the user to enter answers for all the state capitals and then display the total correct count. 
 	       The user's answer is not case-sensitive. */
 
 	    /* Part 2: Sorting & Searching HashMap
 	       Now revise the code to store the pairs of each state and its capital in a Map using the HashMap function. 
-	       Display the content of the Map, then use the TreeMap class to sort the map while using a binary search tree for          storage. 
+	       Display the content of the Map, then use the TreeMap class to sort the map while using a binary search tree for storage. 
 	       Next, your program should prompt the user to enter a state and it should then display the capital for the state.*/
 
 	    // Instructions
@@ -33,15 +33,17 @@ public class StateCapitalGame {
 	    // 5 Ask the user to enter answers for all the state capitals and then display the total correct count.
 	    // 6. Declare a HashMap and move the contents of the two-dimensional array into the HashMap.
 	    // 7. Display the content of the Map.
-	    /* 8. Declare a TreeMap class to sort the map while using a binary search tree for storage. (Place the conte of the            HashMap into the TreeMap) */
+	    /* 8. Declare a TreeMap class to sort the map while using a binary search tree for storage. (Place the contents of the HashMap into the TreeMap) */
 	    // 9. Ask the user to enter a state and it should then display the capital for the state.
 
-	    /* Grader Notes: From First Attempted Submission:
+	    /* 
+	        Grader Notes: From First Attempted Submission:
 	     •  Correctness: Part 1: You should prompt the user to enter all state capitals and count the correct answers, after 
 	        sorting your list.
 	        Part 2: Be sure display the content of the Map, then use the TreeMap class to sort the map.Then, your program 
 	        should prompt the user to enter a state and it should display the capital for that state.
-	      •	You could create 2 separate codes for each part to improve structure and clarity. */
+	      •	You could create 2 separate codes for each part to improve structure and clarity. 
+	      */
 	    
 	    
 	    // Initialize global variables
@@ -98,8 +100,8 @@ public class StateCapitalGame {
 	    System.out.println("The array is ordered by state name.");
 	    System.out.println("The current contents of the array are: ");
 
-	    // This loop will itterate through the array and display the contents.
-	    // This is the anwer key for the next step in the program.
+	    // This loop will iterate through the array and display the contents.
+	    // This is the answer key for the next step in the program.
 	    for(int i = 0; i < statesCapitals[0].length; i++) {
 	      System.out.println(statesCapitals[0][i] + " " + statesCapitals[1][i]);
 	    }
@@ -107,9 +109,9 @@ public class StateCapitalGame {
 	    // Use bubble sort to sort the content by capital.
 	    System.out.println("We will now use a Bubble Sort to rearrange the array by Capital.");
 
-	    // This loop will itterate over the outer array.
+	    // This loop will iterate over the outer array.
 	    for(int i = 0; i < statesCapitals[0].length; i++){
-	      // This loop will itterate over the inner array.
+	      // This loop will iterate over the inner array.
 	      for(int j = 0; j < statesCapitals[0].length - 1; j++){
 	        // Temporary variable to hold the value of the current index.
 	        String tempCity = "";
@@ -134,7 +136,7 @@ public class StateCapitalGame {
 	    // 5 Ask the user to enter answers for all the state capitals and then display the total correct count.
 	    /* Grader Notes from First Attempt:	Part 1: You should prompt the user to enter all state capitals and count the 
 	       correct answers, after sorting your list. */
-	    // This code existed in the first attemp. The grader clearly did not read the entire code.
+	    // This code existed in the first attempt. The grader clearly did not read the entire code.
 	    // Added "+ statesCapitals[0][index]" to the prompt for the user to make it more clear.
 	    /* We will now prompt the user to enter answers for all the state capitals and then display the total correct count. 
 	       The user's answer is not case-sensitive.*/
@@ -164,7 +166,7 @@ public class StateCapitalGame {
 	      }
 
 	    }
-	    // Display Correct Answeres
+	    // Display Correct Answerers
 	    for(String answer: userAnswers){
 
 	      // Search the Sub-Array for the user input and ignore case.
@@ -230,7 +232,7 @@ public class StateCapitalGame {
 	    System.out.println("Have a great day!");
 
 	    /* Final note from original grader: •	You could create 2 separate codes for each part to improve structure and 
-	       clarity. While I agree with seperation of concerns in programming that was not part of the original scope so it 
+	       clarity. While I agree with separation of concerns in programming that was not part of the original scope so it 
 	       should not affect my grade. */
 	}
 
