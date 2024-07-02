@@ -1,3 +1,4 @@
 # Computer Science
 ## My Computer Science Journey
-## Class | 
+## Class | Name | Project | Grade | Date Complete
+
