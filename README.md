@@ -2,6 +2,7 @@
 ## My Computer Science Journey
 Class | Name | Project | Grade | Date Complete
 |----------|----------|----------|----------|----------|
+CS1100 | Introduction to Java Programming | Final Java Project | 95% | 4/1/2024
 CS201 | Data Structures & Algorithms I | Searching Text & String Data | 100% | 05/29/2024
 CS303 | Database Management | Database System | 100% | 6/5/2024
 CS303 | Database Management | Database Normalization | 96% | 6/5/2024
