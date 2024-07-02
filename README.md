@@ -1,7 +1,7 @@
 # Computer Science
 ## My Computer Science Journey
 
-This repo will serve as a record of my journey in my pursuit of a Bachelors of Science in Computer Science.
+This repo will serve as a record of my pursuit to earn a Bachelors of Science in Computer Science.
 
 Class | Name | Project | Grade | Date Complete
 |----------|----------|----------|----------|----------|
