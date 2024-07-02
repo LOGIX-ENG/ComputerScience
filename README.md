@@ -1,5 +1,8 @@
 # Computer Science
 ## My Computer Science Journey
+
+This repo will serve as a record of my journey in my pursuit of a Bachelors of Science in Computer Science.
+
 Class | Name | Project | Grade | Date Complete
 |----------|----------|----------|----------|----------|
 CS1100 | Introduction to Java Programming | Final Java Project | 95% | 4/1/2024
