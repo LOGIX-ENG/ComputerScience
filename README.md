@@ -1,1 +1,2 @@
-#Computer Science
+# Computer Science
+## My Computer Science Journey
